@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/django,python,pycharm,visualstudiocode,react,venv
-# Edit at https://www.toptal.com/developers/gitignore?templates=django,python,pycharm,visualstudiocode,react,venv
+# Created by https://www.toptal.com/developers/gitignore/api/django,visualstudiocode,react,pycharm
+# Edit at https://www.toptal.com/developers/gitignore?templates=django,visualstudiocode,react,pycharm
 
 ### Django ###
 *.log
@@ -253,67 +253,6 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
-### Python ###
-# Byte-compiled / optimized / DLL files
-
-# C extensions
-
-# Distribution / packaging
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-
-# Installer logs
-
-# Unit test / coverage reports
-
-# Translations
-
-# Django stuff:
-
-# Flask stuff:
-
-# Scrapy stuff:
-
-# Sphinx documentation
-
-# PyBuilder
-
-# Jupyter Notebook
-
-# IPython
-
-# pyenv
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-
-# Celery stuff
-
-# SageMath parsed files
-
-# Environments
-
-# Spyder project settings
-
-# Rope project settings
-
-# mkdocs documentation
-
-# mypy
-
-# Pyre type checker
-
-# pytype static type analyzer
-
-# profiling data
-
 ### react ###
 .DS_*
 logs
@@ -329,18 +268,6 @@ psd
 thumb
 sketch
 
-### venv ###
-# Virtualenv
-# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ll]ib64
-[Ll]ocal
-[Ss]cripts
-pyvenv.cfg
-pip-selfcheck.json
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/tasks.json
@@ -352,4 +279,4 @@ pip-selfcheck.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/django,python,pycharm,visualstudiocode,react,venv
+# End of https://www.toptal.com/developers/gitignore/api/django,visualstudiocode,react,pycharm
