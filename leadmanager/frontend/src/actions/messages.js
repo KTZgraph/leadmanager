@@ -1,4 +1,4 @@
-import { CREATE_MESSAGE } from './types';
+import { CREATE_MESSAGE, GET_ERRORS } from './types';
 
 // CREATE MESSAGe
 export const createMessage = (msg) => {
@@ -8,3 +8,10 @@ export const createMessage = (msg) => {
     };
 };
 
+// RETURN ERRORS
+export const returnErrors = (msg, status) => {
+    return {
+      type: GET_ERRORS,
+      payload: { msg, status },
+    };
+  };
